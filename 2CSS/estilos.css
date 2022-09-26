@@ -1,0 +1,28 @@
+* {
+    color: red;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    
+}
+
+
+#h2ColorAzul {
+    color:aquamarine;
+}
+
+h2 {
+    color: green;
+}
+
+.importante {
+    font-size: 30px;
+    color:blueviolet;
+}
+
+.negritaVerde {
+    font-weight: bold;
+    color: green;
+}

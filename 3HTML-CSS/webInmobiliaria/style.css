@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("./img/header.jpg");
+    height: 92vh;
+    background-size: cover;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.menuEncabezado {
+    display: flex;
+    /*margin: 0 10%;*/
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap; /*responsive*/
+}
+
+header, section, main {
+    padding: 5% 12%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1><mark> Tabla 1</mark></h1>
+    <table border="1">
+        <tr>
+            <th>Día</th><th>Mes</th>
+        </tr>
+        <tr>
+            <td>10</td><td>Agosto</td>
+        </tr>
+        <tr>
+            <td>14</td><td>Setiembre</td>
+        </tr>
+
+    </table>
+    <hr>
+    <h1>Tabla 2</h1>
+    <table border="1">
+        <tr>
+            <td rowspan="3">Zona Sur</td>
+            <td>Avellaneda</td>
+            <td>Lanús</td>
+        </tr>
+        <tr>
+            <td colspan="2">Bandfield</td>
+        </tr>
+        <tr>
+            <td>Quilmes</td>
+            <td>Berazategui</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Zona Oeste</td>
+            <td>Morón</td>
+            <td>Merlo</td>
+        </tr>
+        <tr>
+            <td>Moreno</td>
+            <td>Haedo</td>
+        </tr>
+    </table>
+    <hr>
+    <form action="4resform.html">
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre aquí">
+        </p>
+        <p>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email">
+        </p>
+        <p>
+            <label for="fechaNacim">Fecha de Nacimiento:</label>
+            <input type="date" name="fechaNacim" placeholder="mm/dd/yyyy">
+        </p>
+        <p>
+            <label for="genero">Género:</label>
+            <input type="radio" name="genero" value="Hombre">
+            <label for="">Hombre</label>
+            <input type="radio" name="genero" value="Mujer">
+            <label for="">Mujer</label>
+            <input type="radio" name="genero" value="Otro">
+            <label for="">Otro</label>
+        </p>
+        <p>
+            <label for="estudios">Estudios:</label>
+            <input type="checkbox" name="estudios1" value="Primarios">
+            <label for="estudios1">Primarios</label>
+            <input type="checkbox" name="estudios2" id="estudios2" value="Primarios">
+            <label for="estudios2">Secundarios</label>
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
