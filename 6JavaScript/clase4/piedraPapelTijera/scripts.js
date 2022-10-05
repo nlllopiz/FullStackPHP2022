@@ -6,8 +6,10 @@
 
 let opcionUsuario;
 
-let opcionComputadora = 1
+let opcionComputadora = Math.floor(Math.random() * 3 + 1);
 
+console.log(opcionComputadora);
+/*
 if (opcionUsuario == opcionComputadora){
     empate
 } else {
@@ -29,3 +31,4 @@ if (opcionUsuario == opcionComputadora){
     }
 
 }
+*/
