@@ -18,6 +18,7 @@ edad = prompt("Cuántos años tenés?");
 console.log(typeof(edad));
 
 if (edad >= 18 && edad < 50) {
+    
     console.log("Puede ingresar");
 }
 else {  //si no
