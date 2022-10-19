@@ -18,7 +18,7 @@ function sumar(numero1, numero2){
     return sumafc;
 }
 
-console.log(numero1);
+//console.log(numero1);
 
 console.log(sumar(3,5));
 
